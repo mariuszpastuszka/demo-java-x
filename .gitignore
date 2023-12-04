@@ -1,0 +1,16 @@
+# IntelliJ IDEA
+/.idea
+*.iml
+
+# Maven
+
+/target
+
+#Gradle
+
+/.gradle
+/build
+
+# Demos
+
+/app-cds
