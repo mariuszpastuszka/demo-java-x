@@ -259,10 +259,10 @@ public class ImageColors {
 
 			var rgbValues = ByteVector.fromArray(RGB_SPECIES, image, pixel);
 			var purpleRgbValues = ByteVector.zero(RGB_SPECIES).blend(purpleIndex, PURPLE_SHIFT);
-			var purpleMask = rgbValues.compare(VectorOperators.UNSIGNED_LT, purpleRgbValues);
-			var newRgbValues = rgbValues.blend(purpleRgbValues, purpleMask);
+//			var purpleMask = rgbValues.compare(VectorOperators.UNSIGNED_LT, purpleRgbValues);
+//			var newRgbValues = rgbValues.blend(purpleRgbValues, purpleMask);
 
-			newRgbValues.intoArray(newImage, pixel);
+//			newRgbValues.intoArray(newImage, pixel);
 		}
 		// remainder
 		for (; pixel + 2 < image.length; pixel += 3) {

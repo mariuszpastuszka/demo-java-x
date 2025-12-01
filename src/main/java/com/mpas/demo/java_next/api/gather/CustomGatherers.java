@@ -21,7 +21,7 @@ import com.mpas.demo.java_next.api.gather.stream.Gatherer.Integrator;
 //import java.util.stream.Gatherer.Downstream;
 //import java.util.stream.Gatherer.Integrator;
 
-import static java.lang.StringTemplate.STR;
+//import static java.lang.StringTemplate.STR;
 
 /**
  * This demo is built for JEP 461, which is not yet merged. To allow experimentation, I rebuilt the essential parts:
@@ -48,11 +48,11 @@ public class CustomGatherers {
 //				letters,
 //				doNothing());
 
-		System.out.println(STR."""
-
-				in:  \{letters}
-				out: \{result}
-			""");
+//		System.out.println(STR."""
+//
+//				in:  \{letters}
+//				out: \{result}
+//			""");
 	}
 
 	/* --- UNTIL JEP 461 IS MERGED --- */

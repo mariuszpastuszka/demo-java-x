@@ -1,6 +1,6 @@
 package com.mpas.demo.java17.api.random;
 
-import jdk.internal.util.random.RandomSupport.RandomGeneratorProperties;
+//import jdk.internal.util.random.RandomSupport.RandomGeneratorProperties;
 
 import java.util.random.RandomGenerator.ArbitrarilyJumpableGenerator;
 
@@ -19,13 +19,13 @@ import java.util.random.RandomGenerator.ArbitrarilyJumpableGenerator;
  *    --add-exports=java.base/jdk.internal.util.random=com.mpas.demo.java_x
  */
 
-@RandomGeneratorProperties(
-		name="xkcd",
-		group="fancypants",
-		equidistribution = 0,
-		i = 1,
-		k = -1
-)
+//@RandomGeneratorProperties(
+//		name="xkcd",
+//		group="fancypants",
+//		equidistribution = 0,
+//		i = 1,
+//		k = -1
+//)
 public class Xkcd implements ArbitrarilyJumpableGenerator {
 
 	@Override
